@@ -3,4 +3,4 @@ npm install
 npm run start
 
 ## Checkout page demo
-demo.png
+![Checkout page](https://github.com/ericpt3ch/checkout-page/blob/main/demo.png)
