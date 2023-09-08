@@ -1,0 +1,157 @@
+.App {
+  padding: 16px;
+  display: flex;
+  gap: 16px;
+  font-family: "OperatorMono-Book";
+}
+
+.title-text {
+  font-size: 24px;
+  color: black;
+}
+
+.subtitle-text {
+  font-size: 20px;
+  color: black;
+}
+
+.subtitle-blue-text {
+  font-size: 20px;
+  color: rgb(49, 49, 190);
+}
+
+.description-text {
+  font-size: 16px;
+  color: rgb(47, 50, 52)
+}
+
+.subdescription-text {
+  font-size: 14px;
+  color: black;
+}
+
+.App-left-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 0 0 60%;
+}
+
+.checkout-item {
+  border: 2px solid #dddddd;
+  border-radius: 4px;
+  padding: 32px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.flex-content-start {
+  display: flex;
+  justify-content: flex-start;
+  gap: 4px;
+}
+
+.flex-content-row {
+  display: flex;
+  gap: 8px;
+}
+
+.flex-content-row-gap16 {
+  display: flex;
+  gap: 16px;
+}
+
+.delivery-item-description {
+  color: grey;
+}
+
+.total-container-header {
+  margin-bottom: 16px;
+}
+
+.flex-content-between-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-column-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.flex-column-content-gap8 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cancel-order-container {
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.blue-link-button {
+  background: transparent;
+  border: none;
+  color: rgb(49, 49, 190);
+  font-size: 18px;
+  display: flex;
+  justify-content: start;
+  padding: 0;
+  cursor: pointer;
+  font-family: "OperatorMono-Book";
+}
+
+.button-link {
+  color: rgb(49, 49, 190);
+  text-decoration: none;
+}
+
+.green-button {
+  width: 100%;
+  color: white;
+  font-size: 24px;
+  background-color: rgb(6, 156, 6);
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  font-family: "OperatorMono-Book";
+}
+
+.visa-radio-button {
+   margin: 0;
+   width: 2.5em;
+   height: 2.5em;
+}
+
+.visa-card-container {
+  border: 1px solid lightblue;
+  background-color: rgb(233, 246, 251);
+  padding: 16px;
+
+  display: flex;
+  gap: 8px;
+}
+
+.content-align-item-center {
+  align-items: center;
+}
+
+.content-margin-16 {
+  margin: 16px;
+}
+
+.separator-line {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid grey;
+}
+
+.checkmark-icon {
+  margin-top: 4px;
+  margin-left: 4px;
+  fill:#47b431;
+}

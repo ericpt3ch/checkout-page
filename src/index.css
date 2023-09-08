@@ -1,0 +1,6 @@
+@font-face {
+  font-family: "OperatorMono-Book";
+  src: local("OperatorMono-Book"),
+   url("./assets/font/OperatorMono-Book.otf") format("truetype");
+  font-weight: bold;
+}
